@@ -10,10 +10,17 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 
 ## Installation
 
+Running Locally:
 1. Clone the repository: `git clone git@github.com:scotch-io/node-todo`
 2. Install the application: `npm install`
 3. Start the server: `node server.js`
 4. View in browser at `http://localhost:8080`
+
+Deploying to Heroku:
+1. 'heroku create'
+2. 'git push heroku master'
+3. 'heroku addons:add mongohq'
+4. 'heroku open'
 
 ## Tutorial Series
 
