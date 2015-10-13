@@ -19,7 +19,7 @@ Running Locally:
 Deploying to Heroku:
 1. 'heroku create'
 2. 'git push heroku master'
-3. 'heroku addons:add mongohq'
+3. 'heroku addons:create mongohq'
 4. 'heroku open'
 
 ## Tutorial Series
